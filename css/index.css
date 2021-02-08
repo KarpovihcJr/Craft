@@ -4,6 +4,7 @@ body {
     font-family: "Saira";  
 }
 h2 { font-size: 50px;
+    text-align: center;
 }
 p { font-size: 15px;}
 
@@ -31,6 +32,9 @@ padding-bottom: 30px;
     color: red;
 }
 .banner { background-color :  #F1F1F1;
+}
+#products, #blog, #why-us {
+    background-image: url("../img/fone-products.jpg");
 }
 #gift-packs {
     background-color:#EBEBEB;
