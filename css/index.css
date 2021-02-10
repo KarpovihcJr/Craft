@@ -10,7 +10,7 @@ p { font-size: 15px;}
 
 .heading {
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
     font-family: "Saira";
    padding-top: 30px;
    padding-top: 30px;
@@ -20,6 +20,10 @@ text-decoration: none;
 color: black;
 padding-top: 30px;
 padding-bottom: 30px;
+}
+.menu {
+    display: flex;
+    justify-content: center;
 }
  .menu li {list-style: none;}
 .menu a {
@@ -31,11 +35,57 @@ padding-bottom: 30px;
 .menu a:hover {
     color: red;
 }
+@media (min-width: 660px) {
+    #cover {display: grid;
+        grid-template-columns: 1fr;
+}}
+@media (min-width:900px) {
+    #cover {display: grid;
+        grid-template-columns: 1fr 1fr;
+}}
+#cover h1 {
+    font-size: 80px;
+    font-weight: bold;
+
+}
 .banner { background-color :  #F1F1F1;
 }
 #products, #blog, #why-us {
     background-image: url("../img/fone-products.jpg");
 }
+#products h2 {
+    color: white;
+    font-weight: inherit;
+}
+#products {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.adaptive { width: 100%;
+height: auto;  }
+
+@media (min-width: 660px) {
+    .categories{display: grid;
+        grid-template-columns: 1fr;
+}}
+@media (min-width: 900px) {
+    .categories{display: grid;
+        grid-template-columns: 1fr 1fr;
+}}
+@media (min-width: 960px) {
+    .categories{display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+}}
+
+.categories1 {
+    background-color: white;
+    margin: 30px 20px;
+    text-align: center;}
+    
+.adaptive { width: 100%;
+height: auto; }
+
 #gift-packs {
     background-color:#EBEBEB;
 }
