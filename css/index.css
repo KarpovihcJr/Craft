@@ -1,7 +1,7 @@
 body {
     margin: auto;
     padding: 0;
-    font-family: "Saira";  
+      font-family: "Saira";
 }
 h2 { font-size: 50px;
     text-align: center;
@@ -15,6 +15,7 @@ p { font-size: 15px;}
    padding: 30px 40px;   
 }
 .heading a {
+     font-family: "Saira";
 text-decoration: none;
 color: #212020;
 }
@@ -136,13 +137,14 @@ footer a {
      text-decoration: none;
 }
 footer p { color: #BCBCBC;
-           font-size: 15px;} */
+           font-size: 15px;} 
 @font-face {
     font-family: "Saira";
     src: url("../font/Saira-Regular.ttf");
     font-style: normal;
     font-weight: normal;
 } 
+
 @font-face {
     font-family: "Merriweather";
     src: url("../font/Merriweather-Regular.ttf");
