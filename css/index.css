@@ -6,7 +6,6 @@ body {
 h2 { font-size: 50px;
     text-align: center;
 }
-p { font-size: 15px;}
 
 .heading {
     text-align: center;
@@ -98,10 +97,10 @@ button {padding: 15px 30px;
 }}
 
 #products, #blog, #why-us {
-    background-image: url("../img/fone-products.jpg");
+    background-image: url("../img/background-image.jpg");
 }
 #products h2 {
-    color: white;
+    color: rgb(206, 187, 187);
     font-weight: inherit;
 }
 #products {
@@ -128,13 +127,58 @@ height: auto;  }
 .categories1 {
     background-color: white;
     margin: 30px 20px;
-    text-align: center;}
-    
-.adaptive { width: 100%;
-height: auto; }
+    text-align: center;
+}
+.categories1 a {
+    margin: 25px 0px 0px;
+    font-style: "Merriweather";
+    font-size: 17px;
+    color: #212020;
+    text-decoration: none;
+}
+.categories1 a:hover
+{     padding-bottom: 1px;
+    border-bottom: 1px solid #212020;
+
+}
+.categories1 p {
+   margin: 16px 0px 24px;
+   font-style: "Merriweather";
+   font-size: 17px;
+   font-weight: bold;
+   color: #E04141;
+}
+
+@media (min-width : 900px)
+{
+    .colections1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+       
+    }
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
 
 #gift-packs {
     background-color:#EBEBEB;
+}
+
+#custom-orders {
+    background-image: url(../img/background-custom-orders.jpg);
+    background-size: cover;
+    
 }
 footer {
     background-color: #212020;
