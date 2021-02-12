@@ -36,6 +36,25 @@ color: #212020;
 .menu a:hover {
     color: red;
 }
+.mobile-menu {
+    float: right;
+    top:auto;
+    display: none;
+    height: 40px;
+    width: 40px;
+    background-image: url(../img/icon.png);
+    background-size: cover;
+}
+
+@media (max-width : 990px)
+{
+    .mobile-menu {
+        display: block;
+    }
+    .menu {
+        display:none;
+    }
+}
 
 @media (min-width: 660px) {
     #cover {display: grid;
