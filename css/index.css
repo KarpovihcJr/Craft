@@ -168,7 +168,7 @@ height: auto;  }
    color: #E04141;
 }
 
-@media (min-width : 900px)
+@media (min-width :770px)
 {
     .colections1 {
         display: grid;
@@ -199,6 +199,41 @@ height: auto;  }
     background-size: cover;
     
 }
+
+#why-us {
+    color: #F1F1F1;
+    text-align: center;
+}
+.box-tools {
+    width: 100px;
+    height: 100px;
+}
+@media (min-width : 770px)
+{
+    .why-us-box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        
+}
+@media (min-width: 990px) 
+{
+ .why-us-box {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     
+ }
+}
+
+
+
+
+
+
+
+
+
+
 footer {
     background-color: #212020;
     color: white;
