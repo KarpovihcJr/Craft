@@ -3,8 +3,9 @@ body {
     padding: 0;
       font-family: "Saira";
 }
-h2 { font-size: 50px;
-    text-align: center;
+h2 {
+   text-align: center;
+   font-size: 50px;
 }
 
 .heading {
@@ -121,6 +122,7 @@ button {padding: 15px 30px;
 #products h2 {
     color: rgb(206, 187, 187);
     font-weight: inherit;
+    text-align: center;
 }
 #products {
     padding-top: 50px;
@@ -165,6 +167,7 @@ height: auto;  }
     border-bottom: 1px solid #212020;
 
 }
+
 .categories1 p {
    margin: 16px 0px 24px;
    font-style: "Merriweather";
@@ -172,16 +175,27 @@ height: auto;  }
    font-weight: bold;
    color: #E04141;
 }
+#colections {
+    padding-top: 75px;
+    padding-bottom: 92.5px;
+    text-align: center;
+}
 
-
+#colections h2 {
+    font-size: 44px;
+    font-style: "Saira";
+    font-weight: lighter;
+     margin-top: -10px;}
 .colections1 {
     margin: auto;
+    padding-bottom: 50px;
     width: 100%;
     max-width: 1200px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     text-align: center;
+    
 
 }
 .colections2 h3 {
@@ -203,10 +217,29 @@ height: auto;  }
    height: auto;
 
 }
-#gift-packs {
-    background-color:#EBEBEB;
+#colections a {
+text-decoration: none;
+color: #212020;
+font-size: 14px;
+font-style: "Merriweather";
+margin-top: 40px;
+padding: 12px 30px;
+border-style: solid;
+border-width: 2px;
+border-color: #212020;
+border-radius: 20px;
 }
 
+#gift-packs {
+    padding: 75px 0px 95px;
+    background-color:#EBEBEB;
+}
+#gift-packs h2 {
+    margin: -30px -15px 0px;
+    font-style: "Regular";
+    font-weight: lighter;
+    
+}
 #custom-orders {
     background-image: url(../img/background-custom-orders.jpg);
     background-size: cover;
@@ -214,19 +247,42 @@ height: auto;  }
 }
 
 #why-us {
+    padding: 75px 0px 90px;
     color: #F1F1F1;
     text-align: center;
+    font-style: "Regular";
+}
+#why-us h2 {
+    margin: -30px -15px 0px;
+    font-weight: lighter;
+
+}
+#why-us h3 {
+    font-size: 36px;
+    font-weight: lighter;
+    margin: 0px;
+    line-height: 1.1;
+}
+#why-us p {
+    font-size: 19px;
+    font-family: "Merrieawather";
+    color: #c2c2c2;
+    line-height: 1.5;
 }
 .box-tools {
+    margin-top: 30px;
     width: 100px;
     height: 100px;
+}
+.why-us-box {
+    margin: auto;
+    max-width: 1200px;
 }
 @media (min-width : 770px)
 {
     .why-us-box {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
         
 }}
 @media (min-width: 990px) 
