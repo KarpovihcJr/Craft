@@ -157,7 +157,7 @@ height: auto;  }
 }
 .categories1 a {
     margin: 25px 0px 0px;
-    font-style: "Merriweather";
+    font-family: "Merriweather";
     font-size: 17px;
     color: #212020;
     text-decoration: none;
@@ -170,7 +170,7 @@ height: auto;  }
 
 .categories1 p {
    margin: 16px 0px 24px;
-   font-style: "Merriweather";
+   font-family: "Merriweather";
    font-size: 17px;
    font-weight: bold;
    color: #E04141;
@@ -183,7 +183,7 @@ height: auto;  }
 
 #colections h2 {
     font-size: 44px;
-    font-style: "Saira";
+    font-family: "Saira";
     font-weight: lighter;
      margin-top: -10px;}
 .colections1 {
@@ -206,7 +206,7 @@ height: auto;  }
     margin-top: -60px;
     padding: 30px 25px;
     font-size: 36px;
-    font-style: "Saira";
+    font-family: "Saira";
     color: #ffffff;
     font-weight: 400;
     background: #E04141;
@@ -221,7 +221,7 @@ height: auto;  }
 text-decoration: none;
 color: #212020;
 font-size: 14px;
-font-style: "Merriweather";
+font-family: "Merriweather";
 margin-top: 40px;
 padding: 12px 30px;
 border-style: solid;
@@ -236,7 +236,7 @@ border-radius: 20px;
 }
 #gift-packs h2 {
     margin: -30px -15px 0px;
-    font-style: "Regular";
+    font-family: "Saira";
     font-weight: lighter;
     
 }
@@ -245,12 +245,40 @@ border-radius: 20px;
     background-size: cover;
     
 }
+#great-products {
+    padding: 90px 0px 80px;}
+
+.great-container {
+    margin-top: 30px;
+    padding: 0px 15px;
+}
+.great-container h2 {
+    text-align: left;
+    font-family: "Saira";
+    font-size: 50px;
+    font-weight: lighter;
+    line-height: 1.1;
+}
+.great-container p {
+    font-size: 15px;
+    font-family: "Merriweather";
+    color: #212020;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+@media (min-width: 770px) {
+    #great-products {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+} 
 
 #why-us {
     padding: 75px 0px 90px;
     color: #F1F1F1;
     text-align: center;
-    font-style: "Regular";
+    font-family: "Saira";
 }
 #why-us h2 {
     margin: -30px -15px 0px;
@@ -264,8 +292,8 @@ border-radius: 20px;
     line-height: 1.1;
 }
 #why-us p {
-    font-size: 19px;
-    font-family: "Merrieawather";
+    font-size: 15px;
+    font-family: "Merriweather";
     color: #c2c2c2;
     line-height: 1.5;
 }
