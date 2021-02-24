@@ -349,11 +349,13 @@ border-radius: 20px;
     }
 }
 
-
-
-
-
-
+#subscribe {
+background: linear-gradient(
+    to bottom,
+    rgba(33, 32, 32, 0.85),
+    rgba(33, 32, 32, 0.85))
+  ,url('../img/background-subscribe.jpg');
+background-attachment: fixed;}
 
 footer {
     background-color: #212020;
