@@ -14,6 +14,7 @@ h2 {
     font-family: "Saira";
    padding: 30px 40px;   
 }
+
 .heading a {
      font-family: "Saira";
 text-decoration: none;
@@ -27,6 +28,25 @@ color: #212020;
     justify-content: space-between;
    
 }
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    display: block;
+}
+.navbar-brand {
+    display: block;
+    text-align: center;
+}
+.navbar-toggler {
+    float: right;
+    margin-top: -38px;
+}
+.navbar-nav {
+    padding: 10px 40px 50px 40px;
+    margin: auto;
+     max-width: 600px;
+    justify-content: space-between;
+    text-align: center;
+}
+
  .menu li {list-style: none;}
 .menu a {
     font-size: 15px;
@@ -37,25 +57,9 @@ color: #212020;
 .menu a:hover {
     color: red;
 }
-.mobile-menu {
-    float: right;
-    top:auto;
-    display: none;
-    height: 40px;
-    width: 40px;
-    background-image: url(../img/icon.png);
-    background-size: cover;
-}
 
-@media (max-width : 990px)
-{
-    .mobile-menu {
-        display: block;
-    }
-    .menu {
-        display:none;
-    }
-}
+
+
 
 @media (min-width: 660px) {
     #cover {display: grid;
